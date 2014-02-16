@@ -1,4 +1,4 @@
-package br.com.braziljs.loiane.model;
+package id.co.smltech.dashboard.model;
 
 public class ContactWrapper {
 

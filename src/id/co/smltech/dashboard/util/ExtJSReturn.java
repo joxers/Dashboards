@@ -1,4 +1,6 @@
-package br.com.braziljs.loiane.util;
+package id.co.smltech.dashboard.util;
+
+import id.co.smltech.dashboard.model.Contact;
 
 import java.util.HashMap;
 import java.util.List;
@@ -6,19 +8,8 @@ import java.util.Map;
 
 import org.springframework.stereotype.Component;
 
-import br.com.braziljs.loiane.model.Contact;
-
 /**
  * Util class, returns a Map in the format Ext JS expects
- * 
- * Sample project presented at BrazilJS
- * Brazilian JavaScript Conference
- * Fortaleza - Ceará - 13-14 May 2011
- * http://braziljs.com.br/2011
- * 
- * @author Loiane Groner
- * http://loianegroner.com (English)
- * http://loiane.com (Portuguese)
  */
 @Component
 public class ExtJSReturn {

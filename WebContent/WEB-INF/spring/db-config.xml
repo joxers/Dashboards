@@ -10,19 +10,19 @@
 
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName"><value>com.mysql.jdbc.Driver</value></property>
-        <property name="url"><value>jdbc:mysql://localhost/braziljs</value></property>
+        <property name="url"><value>jdbc:mysql://localhost:3306/dashboards</value></property>
         <property name="username"><value>root</value></property>
-       <!-- <property name="password"><value>root</value></property>-->
+       <property name="password"><value>xxxx</value></property>
     </bean>
     
      <!-- Hibernate SessionFactory -->
     <bean id="sessionFactory" class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
         <property name="dataSource"><ref local="dataSource"/></property>
-         <property name="packagesToScan" value="br.com.braziljs.loiane.model" />
+         <property name="packagesToScan" value="id.co.smltech.dashboard.model" />
         <property name="hibernateProperties">
         <props>
             <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
-            <prop key="hibernate.show_sql">false</prop>
+            <prop key="hibernate.show_sql">true</prop>
 			<prop key="hibernate.hbm2ddl.auto">update</prop>
         </props>
         </property>

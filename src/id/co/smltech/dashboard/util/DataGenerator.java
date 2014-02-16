@@ -1,16 +1,7 @@
-package br.com.braziljs.loiane.util;
+package id.co.smltech.dashboard.util;
 
 /**
  * Class used for generating dummy data to populate the database.
- * 
- * Sample project presented at BrazilJS
- * Brazilian JavaScript Conference
- * Fortaleza - Ceará - 13-14 May 2011
- * http://braziljs.com.br/2011
- * 
- * @author Loiane Groner
- * http://loianegroner.com (English)
- * http://loiane.com (Portuguese)
  */
 public class DataGenerator {
 

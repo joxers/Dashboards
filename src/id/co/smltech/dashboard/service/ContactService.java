@@ -1,4 +1,7 @@
-package br.com.braziljs.loiane.service;
+package id.co.smltech.dashboard.service;
+
+import id.co.smltech.dashboard.dao.ContactDAO;
+import id.co.smltech.dashboard.model.Contact;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,20 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import br.com.braziljs.loiane.dao.ContactDAO;
-import br.com.braziljs.loiane.model.Contact;
-
 /**
  * Contact Service
- * 
- * Sample project presented at BrazilJS
- * Brazilian JavaScript Conference
- * Fortaleza - Ceará - 13-14 May 2011
- * http://braziljs.com.br/2011
- * 
- * @author Loiane Groner
- * http://loianegroner.com (English)
- * http://loiane.com (Portuguese)
  */
 @Service
 public class ContactService {

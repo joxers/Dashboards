@@ -1,4 +1,6 @@
-package br.com.braziljs.loiane.dao;
+package id.co.smltech.dashboard.dao;
+
+import id.co.smltech.dashboard.model.Contact;
 
 import java.util.List;
 
@@ -9,20 +11,7 @@ import org.springframework.dao.support.DataAccessUtils;
 import org.springframework.orm.hibernate3.HibernateTemplate;
 import org.springframework.stereotype.Repository;
 
-import br.com.braziljs.loiane.model.Contact;
 
-/**
- * Contact DAO class.
- * 
- * Sample project presented at BrazilJS
- * Brazilian JavaScript Conference
- * Fortaleza - Ceará - 13-14 May 2011
- * http://braziljs.com.br/2011
- * 
- * @author Loiane Groner
- * http://loianegroner.com (English)
- * http://loiane.com (Portuguese)
- */
 @Repository
 public class ContactDAO {
 	

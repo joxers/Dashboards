@@ -1,4 +1,4 @@
-package br.com.braziljs.loiane.model;
+package id.co.smltech.dashboard.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -11,14 +11,6 @@ import org.codehaus.jackson.annotate.JsonAutoDetect;
 /**
  * Contact POJO
  * 
- * Sample project presented at BrazilJS
- * Brazilian JavaScript Conference
- * Fortaleza - Ceará - 13-14 May 2011
- * http://braziljs.com.br/2011
- * 
- * @author Loiane Groner
- * http://loianegroner.com (English)
- * http://loiane.com (Portuguese)
  */
 @JsonAutoDetect
 @Entity

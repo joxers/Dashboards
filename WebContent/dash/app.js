@@ -6,7 +6,7 @@
  *	
  */
 Ext.application({
-    name: 'BrazilJS',
+    name: 'Dash',
 
     controllers: [
         'Contacts'
